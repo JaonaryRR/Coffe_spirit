@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <section class="flex justify-between items-center w-full h-screen md:flex-row flex-col">
+    <div class="w-1/2 flex justify-center items-center">
+      <form class="w-[430px]">
+        <button class="bg-[#00378a] hover:bg-blue-700 text-white py-6 px-8 rounded-lg text-3xl mb-5 mx-auto block lg:inline">
+          <p>M</p>
+        </button>
+        <h1 class="font-bold text-2xl text-center lg:text-left">Get Started</h1>
+        <p class="text-md text-center lg:text-left">Welcome to planet Coffee - Let's create your account</p>
+        <div class="border-b-2 my-10"></div>
+        <div class="flex flex-col">
+          <label for="email" class="text-md font-bold mb-1">Email</label>
+          <input type="text" placeholder="jaonaryriantsoa@gmail.com" name="email" id="email"
+            class="border-2 p-3 rounded-md text-sm outline-[#00378a]">
+        </div>
+        <div class="flex flex-col mt-4">
+          <label for="password" class="text-md font-bold mb-1">Password</label>
+          <input type="password" name="password" id="password" placeholder="P@ssw0rd"
+            class="border-2 p-3 rounded-md text-sm outline-[#00378a]">
+        </div>
+        <button class="w-1/2 lg:w-full mx-auto block lg:inline text-white bg-[#00378a] p-3 rounded-md mt-7 hover:bg-blue-700">
+          Sign Up
+        </button>
+
+        <p class="text-center mt-4">Already have an account ? <a href="#" class="text-[#00378a] hover:text-blue-700">Log in</a></p>
+      </form>
+    </div>
+    <div class="w-1/2 h-full">
+      <img src="img1.jpg" alt="..." class="h-full w-full object-cover hidden md:flex">
+    </div>
+  </section>
+</body>
+
+</html>
